@@ -1,0 +1,620 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    background-color: white;
+    padding-left: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logo-header a {
+
+    display: flex;
+    align-items: center;
+}
+
+nav {
+
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav ul {
+
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+nav ul li {
+
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+
+    color: #c90000;
+}
+
+section.banner {
+
+    background-image: url(../imagens/img_receitas/parmegiana.png);
+    height: 70vh;
+    width: 100%;
+    background-size:  cover;
+    background-position: center;   
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow:-0px -110px 110px 6px black inset;
+}
+
+section.banner-coxinha {
+
+    background-image: url(../imagens/img_receitas/coxinha.jpeg);
+    height: 70vh;
+    width: 100%;
+    background-size:  cover;
+    background-position: top;   
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow:-0px -110px 110px 6px black inset;
+}
+
+section.banner-filemignon {
+
+    background-image: url(../imagens/img_receitas/filemignon.jpeg);
+    height: 70vh;
+    width: 100%;
+    background-size:  cover;
+    background-position: center;   
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow:-0px -110px 110px 6px black inset;
+}
+
+section.banner-filemignonsuino {
+
+    background-image: url(../imagens/img_receitas/filemignonsuino.jpeg);
+    height: 70vh;
+    width: 100%;
+    background-size:  cover;
+    background-position: center;   
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow:-0px -110px 110px 6px black inset;
+}
+
+section.banner-hamburguer {
+
+    background-image: url(../imagens/img_receitas/hamburguer.jpeg);
+    height: 70vh;
+    width: 100%;
+    background-size:  cover;
+    background-position: center;   
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow:-0px -110px 110px 6px black inset;
+}
+
+
+section.banner h1 {
+
+    position: absolute;
+    bottom: 50px;
+    color: #F0EFF4;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+section.banner-coxinha h1 {
+
+    position: absolute;
+    bottom: 50px;
+    color: #F0EFF4;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+section.banner-filemignon h1 {
+
+    position: absolute;
+    bottom: 50px;
+    color: #F0EFF4;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+section.banner-filemignonsuino h1 {
+
+    position: absolute;
+    bottom: 50px;
+    color: #F0EFF4;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+section.banner-hamburguer h1 {
+
+    position: absolute;
+    bottom: 50px;
+    color: #F0EFF4;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+section.conteudo {
+
+    display: flex;
+    height: auto;
+}
+
+.ingredientes {
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.container-ingredientes {
+
+    margin-top: 100px;
+}
+
+.container-modo_preparo {
+
+    margin-top: 100px;
+}
+
+.ingredientes h1 {
+
+    color: red;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 50px;
+    text-indent: 30%;
+}
+
+.ingredientes h3 {
+
+    margin-left: 10%;
+    margin-bottom: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    width: 500px;
+    line-height: 35px;
+}
+
+.container-ingredientes button {
+
+    margin-left: 10%;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #c90000;
+    border: none;
+    position: relative;
+    width: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.container-ingredientes button span {
+
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+}
+
+.container-ingredientes button a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10%;
+    text-transform: uppercase;
+}
+
+.container-ingredientes button:hover {
+
+    background-color: #5c0000f8;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.modo_preparo {
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #c90000;
+    padding-bottom: 150px;
+}
+
+.modo_preparo h1 {
+
+    color: white;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 50px;
+    text-indent: 30%;
+}
+
+.modo_preparo h3 {
+
+    margin-left: 10%;
+    width: 400px;
+    margin-bottom: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 35px;
+}
+
+.container-ingredientes hr {
+
+    border: 1px solid #dee2e6;
+    width: 85%;
+    margin-bottom: 15px;
+}
+
+.container-modo_preparo hr {
+
+    border: 1px solid rgba(226, 74, 74, 0.849);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: -17.6%;
+}
+
+ol {
+
+    margin-left: 15%;
+    color: white;
+    font-size: 22px;
+}
+
+section.catalogo-receitas {
+
+    width: 100%;
+    height: auto;
+    background-color: #f0f1f1;
+    padding: 25px;
+}
+
+section.catalogo-receitas h1 {
+
+    color: #c90000;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 5%;
+    width: 30%;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+section.catalogo-receitas hr {
+
+    border: 1px solid #c90000;
+    margin-left: 5%;
+    width: 30%;
+}
+
+.receitas {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card figure img {
+
+    
+    width: 100%;
+    height: 30vh;
+    border-bottom: 2px solid #c90000;
+}
+
+.card figure img:hover {
+
+    
+    width: 100%;
+    height: 30vh;
+    border-bottom: 2px solid #c90000;
+}
+
+.card {
+
+    height: 60vh;
+    margin-top: 5%;
+    background-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.card:hover {
+
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+section.catalogo-receitas figcaption {
+
+    width: 100%;
+    padding: 25px;
+}
+
+section.catalogo-receitas figcaption h3 {
+
+    text-transform: uppercase;
+    width: 220px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    height: 40px;
+}
+
+section.catalogo-receitas figcaption button {
+
+    padding: 15px;
+    background-color: #c90000;
+    border: none;
+    cursor: pointer;
+    width: 220px;
+    margin-top: 20%;
+    margin-left: 0px;
+}
+
+
+section.catalogo-receitas figcaption  button a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: none;
+}
+
+.rodape {
+
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.87);
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.institucional ul {
+
+    list-style-type: none;
+}
+
+.institucional ul li {
+
+    padding: 15px;
+}
+
+.institucional ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.institucional ul li a:hover {
+
+    color: #c90000;
+}
+
+.infos h1 {
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+
+.infos p {
+
+    width: 250px;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.infos a {
+
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFF1;
+    width:100%;
+    padding:20px;
+}
+
+footer a {
+
+    color: #c90000;
+    text-decoration: none;
+}
+
+@media(max-width: 575.98px) {
+
+header {
+
+    padding-left: 0%;
+}
+
+nav {
+
+    padding-right: 0%;
+}
+    
+nav ul li {
+
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+section.conteudo {
+
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.ingredientes {
+
+     width: 100%;
+}
+
+.container-ingredientes button {
+
+    margin-left: 10%;
+    margin-top: 40px;
+    padding: 15px;
+    width: 70%;
+    margin-bottom: 5%;
+}
+    
+.container-ingredientes button span {
+    
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+}
+    
+.container-ingredientes button a {
+    
+    font-size: 18px;
+    margin-left: 10%;
+}
+
+.modo_preparo {
+
+    width: 100%;
+}
+
+.modo_preparo h1 {
+
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 50px;
+    text-indent: 30%;
+}
+    
+.modo_preparo h3 {
+    
+    margin-left: 2%;
+    width: 300px;
+    margin-bottom: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 35px;    
+}
+    
+.container-ingredientes hr {
+
+    border: 1px solid #dee2e6;
+    width: 85%;
+    margin-bottom: 15px;   
+}
+    
+.container-modo_preparo hr {
+        
+    border: 1px solid rgba(226, 74, 74, 0.849);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: -17.6%;
+}
+    
+ol {
+    
+    margin-left: 15%;
+    font-size: 22px;
+}
+
+section.catalogo-receitas h1 {
+
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 5%;
+    width: 500px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+    
+section.catalogo-receitas hr {
+    
+    border: 1px solid #c90000;
+    margin-left: 5%;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.rodape {
+
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.87);
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 25px;
+}
+
+.institucional {
+
+    margin-top: 5%;
+    margin-left: 0;
+}
+
+.infos {
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 3.5%;
+}
+    
+.logo_2 {
+
+    margin-left: 3.5%;
+}
+    
+}
